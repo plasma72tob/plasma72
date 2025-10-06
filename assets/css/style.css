@@ -1,3 +1,16 @@
+/* Значки соцсетей внизу */
+.social-links img {
+	height: 32px;
+	width: auto;
+	max-width: 60px;
+	object-fit: contain;
+	margin: 0 8px;
+	vertical-align: middle;
+	transition: transform 0.2s;
+}
+.social-links img:hover {
+	transform: scale(1.1);
+}
 body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; color: #333; }
 header { background: #111; color: #fff; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
 header img.logo { height: 60px; }
