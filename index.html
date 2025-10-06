@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Станки Плазма72 - качество с гарантией производителя!</title>
+  <title>Плазма72 - лазерные и плазменные станки. Качество с гарантией производителя!</title>
   <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
   <style>
     body {
@@ -42,13 +42,30 @@
     nav a:hover { color: #ffcc00; }
     .phone-link { color: #ffcc00; margin-left: 2rem; font-weight: 600; text-decoration: none; }
     .phone-link:hover { color: #fff; }
-  #hero { background: linear-gradient(120deg, #111, #333); color: #fff; text-align: center; padding: 3rem 1rem; }
+  #hero { background: linear-gradient(120deg, #111, #333); color: #fff; text-align: center; padding: 1.5rem 1rem; }
     #hero h1 { font-size: 1.8rem; margin-bottom: 1rem; }
     #hero .btn { display: inline-block; background: #ffcc00; color: #111; padding: 0.8rem 1.6rem; text-decoration: none; font-weight: bold; border-radius: 8px; transition: background 0.3s; }
+    .price {
+      position: absolute;
+      left: 50%;
+      bottom: -18px;
+      transform: translateX(-50%);
+      background: #ffcc00;
+      color: #111;
+      font-weight: bold;
+  font-size: 1.4rem;
+      border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  min-width: 60%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      z-index: 2;
+      margin: 0;
+      text-align: center;
+    }
     #hero .btn:hover { background: #e6b800; }
     section { padding: 4rem 2rem; text-align: center; }
     .cards { display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-top: 2rem; }
-    .card { background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 300px; padding: 1rem; transition: transform 0.3s; }
+  .card { background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 300px; padding: 1rem; transition: transform 0.3s; position: relative; }
     .card:hover { transform: translateY(-5px); }
     .card img { width: 100%; border-radius: 8px; }
     .social-links { margin-top: 2rem; display: flex; justify-content: center; gap: 1.5rem; }
@@ -75,7 +92,7 @@
   </header>
 
   <section id="hero">
-    <h1>Станки Плазма72 - качество с гарантией производителя!</h1>
+    <h1> Плазма72 - качество с гарантией производителя!</h1>
     <p>Производство и продажа с доставкой по всей территории РФ и РБ</p>
     <a href="#catalog" class="btn">Посмотреть каталог</a>
   </section>
@@ -87,16 +104,19 @@
         <img src="assets/images/PL3015.jpg" alt="PL-3015" />
         <h3>Станок PL-3015</h3>
         <p>Плазменный станок по металлу 3×1.5м.  Отличное решение для малых и средних производств.</p>
+  <div class="price">270 350 руб.</div>
       </div>
       <div class="card">
         <img src="assets/images/laser.PNG" alt="Плазма-4000" />
         <h3>Лазерный станок по металлу L3515</h3>
         <p>3500×1500 мм, мощность 1500Вт (толщина до 12мм). Универсальный станок для большинства задач.</p>
+  <div class="price">1 200 000 руб.</div>
       </div>
       <div class="card">
         <img src="assets/images/truborez.PNG" alt="Плазма-5000 PRO" />
         <h3>Плазменный труборез PL-300x4300</h3>
         <p>Максимальный диаметр трубы - 300мм, максимальная длина обработки - 4.3м </p>
+  <div class="price">650 000 руб.</div>
       </div>
     </div>
   </section>
