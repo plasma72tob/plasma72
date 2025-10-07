@@ -4,6 +4,8 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
         {
             "name": "Attach to Chrome",
             "port": 9222,
@@ -16,7 +18,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\Мои документы\\GitHub\\plasma72\\index.html"
+            "file": "C:\\Users\\Илья\\123\\plasma72\\index.html"
         }
     ]
 }

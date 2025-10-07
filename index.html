@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Плазма72 - лазерные и плазменные станки. Качество с гарантией производителя!</title>
   <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/style.css" />
  
   <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
@@ -20,80 +21,6 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/104428002" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-  
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f7f7f7;
-      color: #222;
-      scroll-behavior: smooth;
-    }
-    .social-links img {
-      height: 68px !important;
-      width: auto !important;
-      object-fit: contain !important;
-      max-width: 120px !important;
-    }
-    header {
-      background: #111;
-      color: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.5rem 3rem;
-    }
-    header img.logo {
-      height: 80px;
-      margin-right: 2rem;
-      transition: transform 0.3s ease;
-    }
-    header img.logo:hover { transform: scale(1.05); }
-    nav { display: flex; align-items: center; }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin-left: 1.8rem;
-      font-weight: 500;
-    }
-    nav a:hover { color: #ffcc00; }
-    .phone-link { color: #ffcc00; margin-left: 2rem; font-weight: 600; text-decoration: none; }
-    .phone-link:hover { color: #fff; }
-  #hero { background: linear-gradient(120deg, #111, #333); color: #fff; text-align: center; padding: 0.5rem 1rem; }
-    #hero h1 { font-size: 1.8rem; margin-bottom: 1rem; }
-    #hero .btn { display: inline-block; background: #ffcc00; color: #111; padding: 0.8rem 1.6rem; text-decoration: none; font-weight: bold; border-radius: 8px; transition: background 0.3s; }
-    .price {
-      position: absolute;
-      left: 50%;
-      bottom: -18px;
-      transform: translateX(-50%);
-      background: #ffcc00;
-      color: #111;
-      font-weight: bold;
-  font-size: 1.4rem;
-      border-radius: 8px;
-  padding: 0.5rem 1.5rem;
-  min-width: 60%;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      z-index: 2;
-      margin: 0;
-      text-align: center;
-    }
-    #hero .btn:hover { background: #e6b800; }
-  section { padding: 1.2rem 2rem; text-align: center; }
-    .cards { display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-top: 2rem; }
-  .card { background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 300px; padding: 1rem; transition: transform 0.3s; position: relative; }
-    .card:hover { transform: translateY(-5px); }
-    .card img { width: 100%; border-radius: 8px; }
-    .social-links { margin-top: 2rem; display: flex; justify-content: center; gap: 1.5rem; }
-  /* .social-links a img стили перенесены в style.css */
-    .contact-buttons { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
-    .contact-buttons a { display: inline-flex; align-items: center; gap: 0.5rem; color: #fff; padding: 0.8rem 1.2rem; border-radius: 8px; text-decoration: none; font-weight: 500; }
-    .whatsapp { background: #25d366; }
-    .telegram { background: #0088cc; }
-  .contact-buttons img { width: 50px; height: 36px; }
-    footer { background: #111; color: #ccc; text-align: center; padding: 1rem; font-size: 0.9rem; }
-  </style>
 </head>
 <body>
   <header>
@@ -111,34 +38,43 @@
   <section id="hero">
   <section id="about">
     <h2>Плазма72 - качество с гарантией производителя!</h2>
-    <p>Производство и продажа лазерных и плазменных станков резки металла. Работаем по всей террттории РФ и РБ.</p>
+    <p>Производство и продажа лазерных и плазменных станков резки металла. Работаем по всей территории РФ и РБ.</p>
   </section>
      <a href="#catalog" class="btn">Посмотреть каталог</a>
   </section>
 
-  <section id="catalog">
-    <h2>Каталог станков</h2>
-    <div class="cards">
+  <!-- ... -->
+<section id="catalog">
+  <h2>Каталог станков</h2>
+  <div class="cards">
+    <a href="#detail-PL3015" class="card-link">
       <div class="card">
         <img src="assets/images/PL3015.jpg" alt="PL-3015" />
-        <h3>Станок PL-3015</h3>
-        <p>Плазменный станок по металлу 3×1.5м.  Отличное решение для малых и средних производств.</p>
-  <div class="price">270 000 руб.</div>
+        <h3>Станок плазморез PL-3015</h3>
+        <p>Плазменный станок по металлу 3×1.5м. Отличное решение для малых и средних производств.</p>
+        <div class="price">270 000 руб.</div>
       </div>
+    </a>
+    <a href="#detail-L3515" class="card-link">
       <div class="card">
         <img src="assets/images/laser.PNG" alt="L3515" />
         <h3>Лазерный станок по металлу L3515</h3>
         <p>3500×1500 мм, мощность 1500Вт (толщина до 12мм). Универсальный станок для большинства задач.</p>
-  <div class="price">980 000 руб.</div>
+        <div class="price">980 000 руб.</div>
       </div>
+    </a>
+    <a href="#detail-TRUBOREZ" class="card-link">
       <div class="card">
         <img src="assets/images/truborez.PNG" alt="PL-300x4300" />
         <h3>Плазменный труборез PL-300x4300</h3>
-        <p>Максимальный диаметр трубы - 300мм, максимальная длина обработки - 4.3м </p>
-  <div class="price">295 000 руб.</div>
+        <p>Максимальный диаметр трубы - 300мм, максимальная длина обработки - 4.3м, плазмотрон Р80</p>
+        <div class="price">295 000 руб.</div>
       </div>
-    </div>
-  </section>
+    </a>
+  </div>
+</section>
+
+
 
   <section id="contacts">
     <h2>Контакты</h2>
@@ -158,7 +94,7 @@
 
     <div class="social-links">
       <a href="https://vk.com/plasma_72" target="_blank">
-  <img src="assets/images/vk.png" alt="VK" style="height:120px !important; width:auto !important; object-fit:contain !important; max-width:200px !important; vertical-align:baseline !important; margin-top:-18px !important;">
+        <img src="assets/images/vk.png" alt="VK">
       </a>
       <a href="https://www.avito.ru/brands/i195132392" target="_blank">
         <img src="assets/images/avito.png" alt="Avito">
@@ -172,8 +108,124 @@
     </div>
   </section>
 
+<!-- Подробные описания товаров внизу -->
+<section id="detail-PL3015" class="product-detail">
+  <h2>Станок плазморез. Модель PL-3015U (1500х3000)</h2>
+  <div class="product-gallery">
+    <img src="assets/images/PL3015_1.jpg" alt="PL3015 фото 1">
+    <img src="assets/images/PL3015_2.jpg" alt="PL3015 фото 2">
+    <img src="assets/images/PL3015_3.jpg" alt="PL3015 фото 3">
+  </div>
+  <div class="product-info">
+    <ul>
+      <li>Толщина реза: до 20 мм</li>
+      <li>Скорость резки: до 4 м/мин, холостые перемещения до 9000 мм/мин.</li>
+      <li>Уcиленнaя cтaнинa, мoщныe шаговые двигaтели, уcилeнныe ремни </li>
+      <li>Гарантия: 1 год</li>
+      <li>Доставка в любой город РФ и РБ</li>
+<li>Плазмотрон (резак) с рукавом 7 метров - P80 </li>
+<li>Cтойкa упрaвления с нeобходимым прогрaммным обеспечением - mасh3 (имеет понятный русскоязычный интерфейс нашей разработки), shееtсаm.</li>
+<li>Широкоформатный экран, Wifi, клавиатура, мышь. </li>
+<li>На станке установлен контроллер высоты дуги плазмы (ТНС) - автоматически поднимает и отпускает горелку на неровностях металла, контролирует потерю дуги. </li>
+<li>Отличная точность позиционирования и повторяемость </li>
+<li>Установлена система удаленного доступа нашего специалиста - для оказания помощи оператору станка, дистанционного обучения или устранения возможных неполадок </li>
+<li>Станина станка разборная, для удобства транспортировки - отправляем станки транспортными компаниями по всей территории РФ. Доставка до транспортной компании и качественная упаковка (обрешётка) - бесплатно. Стоимость доставки в зависимости от региона и транспортной компании - от 5 до 15 тыс.руб. </li>
+<li>Станок профессионально собран и защищён от высокочастотных помех, прошёл предпродажное тестирование, обкатку, проверку - работает отлично! </li>
+<li>5 комплектов расходников (электрод и сопло) - в подарок!</li>
+<li>Можем укомплектовать (в стоимость не входит) источниками плазмы ПРОФИ CUT x80, ПРОФИ RilonCUT100, START SHARK x50 NHF или можете подключить любой свой (с бесконтактным поджигом)</li>
+<li>Дополнительно можем укомплектовать станок водоналивным столом (в стоимость не входит) для укладки листов металла - в воде остается до 90% гари и копоти, в помещении более-менее чисто. Можете изготовить его самостоятельно, конструкция простая, чертёж предоставляем. </li>
+<li>Приезжайте, смотрите, один день обучения - в подарок. </li>
+<li>Производство находится в городе Тобольск, Тюменская область. </li>
+    </ul>
+    <p>
+      Отличное решение для малых и средних производств. Высокая точность, надежная конструкция, простое управление.
+    </p>
+  </div>
+  <a href="https://wa.me/79952390262?text=Здравствуйте, хочу заказать станок PL-3015" class="order-btn">ЗАКАЗАТЬ</a>
+</section>
+
+<section id="detail-L3515" class="product-detail">
+  <h2>Лазерный станок по металлу L3515 (3500 x 1500)</h2>
+  <div class="product-gallery">
+    <img src="assets/images/L3515_1.jpg" alt="L3515 фото 1">
+    <img src="assets/images/L3515_2.jpg" alt="L3515 фото 2">
+    <img src="assets/images/L3515_3.jpg" alt="L3515 фото 3">
+  </div>
+  <div class="product-info">
+    Самый доступный станок лазерной резки металла с высокой производительностью!
+    <ul>
+      <li>Скорость резки: до 12 м/мин</li>
+      <li>Удобное программное управление</li>
+      <li>Гарантия: 1 год</li>
+      <li>Мощность: Волоконный лазер Raycus 1500 Вт и голова Raytools (Швейцария) с контролем высоты позволяют резать черный металл толщиной до 14 мм.</li>
+      <li>Эффективность: Высокая скорость резки, низкие затраты на обслуживание и энергопотребление. Работает от 220В!</li>
+      <li>Экономия: Разборная станина для удешевления доставки и монтажа. Рабочий стол 3.5 х 1.5 м со сменными ламелями.</li>
+      <li>Удобство: Поворотная стойка с 24" монитором, беспроводные клавиатура и мышь, Wi-Fi, USB, удобный пульт.</li>
+      <li>Управление: Система CypOne с богатым функционалом (раскладка, редактирование, оптимизация резки).</li>
+      <li>Надежность: Профессионально собранная автоматика, современный ПК.</li>
+      <li>Чиллер Hanli с двойным контуром охлаждения для стабильной работы и продления срока службы.</li>
+      <li>Комплект сопел, защитных стёкл и линз - в подарок!</li>
+      
+    </ul>
+    <p>
+      Универсальный станок для большинства задач. Идеален для промышленного и мелкосерийного производства.
+    </p>
+  </div>
+  <a href="https://wa.me/79952390262?text=Здравствуйте, хочу заказать станок L3515" class="order-btn">ЗАКАЗАТЬ</a>
+</section>
+
+<section id="detail-TRUBOREZ" class="product-detail">
+  <h2>Станок плазменной резки труб. PL-300x4300</h2>
+  <div class="product-gallery">
+    <img src="assets/images/TRUBOREZ_1.jpg" alt="Труборез фото 1">
+    <img src="assets/images/TRUBOREZ_2.jpg" alt="Труборез фото 2">
+    <img src="assets/images/TRUBOREZ_3.jpg" alt="Труборез фото 3">
+  </div>
+  <div class="product-info">
+    <ul>
+      <li>Максимальный диаметр трубы - 300мм</li>
+      <li>Максимальная длина обработки - 4.3м (если труба длинее, то ее продолжение может располагаться на дополнительных опорах)</li>
+      <li>Гарантия: 1 год</li>
+      <li>В комплект входит сам станок с плазмотроном (горелкой) Р80 (рукав 10 метров), стойка управления, клавиатура, мышь. </li>
+      <li>В стойке управления собрана автоматика станка, современный компьютер с полностью настроенным прогрaммным обеспечением. </li>
+      <li>ТНС - автоматический контроль высоты дуги. </li>
+      <li>Консультации, поддержка, обучающие видеоролики.</li>
+      <li>Станки отправляем транспортными компаниями по всей стране. Перед отправкой станок частично разбираем, аккуратно упаковываем, делаем обрешётку и отвозим до склада транспортной компании в нашем городе (деловые линии, энергия, гтд, луч и т. д. ) - бесплатно. Доставку между городами оплачивает получатель, обычно 5-35 тыс.руб. в зависимости от города и выбранной транспортной компании.</li>
+      <li>Если вы уже приобретали у нас станок для раскроя листового материалла, то можете использовать одну стойку управления на два станка, достаточно будет обновить программное обеспечение (будет дешевле на 100 000 рублей).</li>
+      
+    </ul>
+    <p>
+      Идеально подходит для производства и ремонта труб. Быстрая настройка, высокая производительность.
+    </p>
+  </div>
+  <a href="https://wa.me/79952390262?text=Здравствуйте, хочу заказать труборез PL-300x4300" class="order-btn">ЗАКАЗАТЬ</a>
+</section>
+
+<script>
+function smoothScrollHandler(selector) {
+  document.querySelectorAll(selector).forEach(link => {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href && href.startsWith('#')) {
+        e.preventDefault();
+        const targetId = href.slice(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    });
+  });
+}
+// плавный переход для карточек
+smoothScrollHandler('.card-link');
+smoothScrollHandler('nav a[href^="#"]');
+smoothScrollHandler('a.btn[href^="#"]');
+</script>
+<!-- ... -->
+
   <footer>
-  <p>© 2025 PLASMA72. Все права защищены.</p>
+    <p>© 2025 PLASMA72. Все права защищены.</p>
   </footer>
 </body>
 <script>
