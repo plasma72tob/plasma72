@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-07 20:55">
+<yml_catalog date="2025-10-07 21:00">
   <shop>
     <name>Плазма72</name>
     <company>Плазма72</company>
@@ -25,8 +25,6 @@
         <vendor>Плазма72</vendor>
         <vendorCode>PL3015</vendorCode>
         <delivery>true</delivery>
-        <pickup>false</pickup>
-        <store>false</store>
       </offer>
       <offer id="L3515" available="true">
         <url>https://plasma72.ru/#detail-L3515</url>
@@ -39,8 +37,6 @@
         <vendor>Плазма72</vendor>
         <vendorCode>L3515</vendorCode>
         <delivery>true</delivery>
-        <pickup>false</pickup>
-        <store>false</store>
       </offer>
       <offer id="TRUBOREZ" available="true">
         <url>https://plasma72.ru/#detail-TRUBOREZ</url>
@@ -53,8 +49,6 @@
         <vendor>Плазма72</vendor>
         <vendorCode>TRUBOREZ</vendorCode>
         <delivery>true</delivery>
-        <pickup>false</pickup>
-        <store>false</store>
       </offer>
     </offers>
   </shop>
