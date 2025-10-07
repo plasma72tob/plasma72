@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-07 23:41">
+<yml_catalog date="2025-10-07 20:55">
   <shop>
     <name>Плазма72</name>
     <company>Плазма72</company>
@@ -21,7 +21,7 @@
         <categoryId>1</categoryId>
         <picture>https://plasma72.ru/assets/images/PL3015.jpg</picture>
         <name>Станок плазморез PL-3015</name>
-        <description>Плазменный станок по металлу 3×1.5м. Отличное решение для малых и средних производств. Толщина реза: до 20 мм. Скорость резки: до 4 м/мин.</description>
+        <description>Плазменный станок по металлу 3×1.5м. Толщина реза: до 20 мм. Скорость резки: до 4 м/мин. Отличное решение для малых и средних производств.</description>
         <vendor>Плазма72</vendor>
         <vendorCode>PL3015</vendorCode>
         <delivery>true</delivery>
@@ -35,7 +35,7 @@
         <categoryId>2</categoryId>
         <picture>https://plasma72.ru/assets/images/laser.PNG</picture>
         <name>Лазерный станок по металлу L3515</name>
-        <description>3500×1500 мм, мощность 1500Вт (толщина до 12мм). Универсальный станок для большинства задач. Скорость резки: до 12 м/мин. Волоконный лазер Raycus 1500 Вт.</description>
+        <description>3500×1500 мм, мощность 1500Вт (толщина до 12мм). Скорость резки: до 12 м/мин. Универсальный станок для большинства задач.</description>
         <vendor>Плазма72</vendor>
         <vendorCode>L3515</vendorCode>
         <delivery>true</delivery>
