@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+Статьи, полезная информация, учебные материаллы для операторов станков лазерной и плазменной резки.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Проверенные режимы резки, настройки станка, интересные проекты, чертежи для резки в формате DXF
