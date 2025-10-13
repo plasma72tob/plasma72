@@ -1,0 +1,35 @@
+# Robots.txt для plasma72.ru
+# Станки лазерной и плазменной резки металла
+
+User-agent: *
+Allow: /
+
+# Разрешаем индексацию основных страниц
+Allow: /index.html
+Allow: /assets/
+Allow: /sitemap.xml
+
+# Запрещаем служебные файлы и папки
+Disallow: /.git/
+Disallow: /.jekyll-cache/
+Disallow: /.vscode/
+Disallow: /_site/
+
+# Разрешаем файлы подтверждения для поисковых систем
+Allow: /yandex_*.html
+
+# Карта сайта
+Sitemap: https://plasma72.ru/sitemap.xml
+
+# Специальные настройки для основных поисковых систем
+User-agent: Yandex
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Настройки краулинга
+Crawl-delay: 1
