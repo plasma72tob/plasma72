@@ -253,7 +253,8 @@ footer { background: #111; color: #ccc; text-align: center; padding: 1rem; font-
   nav {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.3rem;
+    width: 100%;
   }
   
   nav a {
@@ -266,8 +267,12 @@ footer { background: #111; color: #ccc; text-align: center; padding: 1rem; font-
     order: -1;
     background: #ffcc00;
     color: #111 !important;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.8rem;
     border-radius: 5px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    max-width: fit-content;
   }
   
   #hero h1 {
@@ -322,6 +327,12 @@ footer { background: #111; color: #ccc; text-align: center; padding: 1rem; font-
   nav a {
     font-size: 0.8rem;
     margin-left: 0.3rem;
+  }
+  
+  .phone-link {
+    font-size: 0.8rem !important;
+    padding: 0.25rem 0.6rem !important;
+    margin-left: 0.3rem !important;
   }
   
   #hero h1 {
