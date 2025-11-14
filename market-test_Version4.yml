@@ -9,8 +9,7 @@
       <currencyId>RUB</currencyId>
     <categories>
       <category id="1">Плазменные станки</category>
-      <category id="2">Лазерные станки</category>
-      <category id="3">Труборезы</category>
+      <category id="2">Труборезы</category>
     </categories>
     <offers>
       <offer id="PL3015">
@@ -24,22 +23,12 @@
         
         <delivery>true</delivery>
       </offer>
-      <offer id="L3515">
-        <url>https://plasma72.ru/#detail-L3515</url>
-        <price>980000</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>2</categoryId>
-        <picture>https://plasma72.ru/assets/images/laser.PNG</picture>
-        <name>Лазерный станок по металлу L3515</name>
-        <description>3500x1500 мм, мощность 1500Вт (толщина до 12мм). Скорость резки: до 12 м/мин. Универсальный станок для большинства задач.</description>
-
-        <delivery>true</delivery>
-      </offer>
+    
       <offer id="TRUBOREZ">
         <url>https://plasma72.ru/#detail-TRUBOREZ</url>
         <price>295000</price>
         <currencyId>RUB</currencyId>
-        <categoryId>3</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://plasma72.ru/assets/images/truborez.PNG</picture>
         <name>Плазменный труборез PL-300x4300</name>
         <description>Максимальный диаметр трубы - 300мм, максимальная длина обработки - 4.3м, плазмотрон Р80. Быстрая настройка, высокая производительность.</description>
