@@ -6,8 +6,56 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://blog.plasma72.ru</loc>
+    <loc>https://blog.plasma72.ru/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.plasma72.ru/feed.xml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <!-- Статьи блога -->
+  <url>
+    <loc>https://blog.plasma72.ru/%D0%BF%D0%BB%D0%B0%D0%B7%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F/%D1%80%D0%B5%D0%B7%D0%BA%D0%B0/2025/11/14/thc-volt.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.plasma72.ru/%D0%BF%D0%BB%D0%B0%D0%B7%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F/%D1%80%D0%B5%D0%B7%D0%BA%D0%B0/2025/10/10/plasma-technology.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-10-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.plasma72.ru/%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D1%8B/2025/09/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.plasma72.ru/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE/2025/02/02/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.plasma72.ru/%D1%80%D0%B5%D0%B7%D0%BA%D0%B0/%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%D1%8B/2024/10/08/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2024-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.plasma72.ru/%D0%BF%D0%BB%D0%B0%D0%B7%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F/%D1%80%D0%B5%D0%B7%D0%BA%D0%B0/2024/02/05/plasma_news.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2024-02-05</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.plasma72.ru/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/%D0%BF%D0%BB%D0%B0%D0%B7%D0%BC%D0%B0/2021/03/08/blog-post-title-from-file-name.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2021-03-08</lastmod>
   </url>
 </urlset>
