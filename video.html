@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Видео работы лазерных и плазменных станков ПЛАЗМА72. Реальные демонстрации и обзоры." />
+  <meta name="keywords" content="лазерная резка, плазменная резка, видео, обзоры, станки, металлообработка, ЧПУ" />
+  <meta name="author" content="ПЛАЗМА72" />
+  <meta name="robots" content="index, follow" />
+  <title>Видео - Плазма72</title>
+  <link rel="canonical" href="https://plasma72.ru/video.html" />
+  <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="assets/images/plasma72logo.svg" alt="PLASMA72" class="logo" />
+    </a>
+    <nav>
+      <a href="index.html#about">О компании</a>
+      <a href="index.html#catalog">Каталог</a>
+      <a href="https://plasma72tob.github.io/blog/">Блог</a>
+      <a href="video.html">Видео</a>
+      <a href="index.html#contacts">Контакты</a>
+      <a href="tel:+79952390262" class="phone-link">+7 995 239 0262</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Видео работы станков и производства ПЛАЗМА72</h2>
+    <p>Здесь вы найдете любые видео по работе, настройке и обзорам наших лазерных и плазменных станков.</p>
+  </section>
+  
+  <section id="video-list">
+    <h2>Наши видео</h2>
+    <div class="cards">
+      <a href="https://www.youtube.com/@plasma_72" target="_blank" class="card-link">
+        <div class="card">
+          <img src="assets/images/youtube.png" alt="YouTube канал ПЛАЗМА72" />
+          <h3>Канал на YouTube</h3>
+          <p>Демонстрация реальных работ, станков, инструкции и ответы на вопросы.</p>
+        </div>
+      </a>
+      <a href="https://rutube.ru/channel/42211857" target="_blank" class="card-link">
+        <div class="card">
+          <img src="assets/images/rutube.jpg" alt="RuTube канал ПЛАЗМА72" />
+          <h3>RuTube канал</h3>
+          <p>Наши станки и обзоры на RuTube.</p>
+        </div>
+      </a>
+      <a href="https://vk.com/plasma_72" target="_blank" class="card-link">
+        <div class="card">
+          <img src="assets/images/vk.png" alt="VK видео ПЛАЗМА72" />
+          <h3>Видео ВКонтакте</h3>
+          <p>Фото и видеоматериалы в ВК-группе.</p>
+        </div>
+      </a>
+    </div>
+    <div style="margin-top:30px;">
+      <iframe width="350" height="220" src="https://www.youtube.com/embed/OqGkbxNAALM" title="Демонстрация работы станка ПЛАЗМА72" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="350" height="220" src="https://www.youtube.com/embed/nLbLGswv640" title="Плазменная резка - обзор станка" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 PLASMA72. Все права защищены.</p>
+  </footer>
+  <button id="scrollTopBtn" aria-label="Наверх">
+    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+      <circle cx="24" cy="24" r="24" fill="#1863b8"/>
+      <path d="M16 28l8-8 8 8" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <script>
+    function smoothScrollHandler(selector) {
+      document.querySelectorAll(selector).forEach(link => {
+        link.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href && href.startsWith('#')) {
+            e.preventDefault();
+            const targetId = href.slice(1);
+            const target = document.getElementById(targetId);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        });
+      });
+    }
+    smoothScrollHandler('nav a[href^="#"]');
+    smoothScrollHandler('a.btn[href^="#"]');
+  </script>
+  <script>
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollBtn.classList.add('show');
+      } else {
+        scrollBtn.classList.remove('show');
+      }
+    });
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
