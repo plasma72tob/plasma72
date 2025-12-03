@@ -11,6 +11,52 @@
   <link rel="canonical" href="https://plasma72.ru/video.html" />
   <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
   <link rel="stylesheet" href="assets/css/style.css" />
+<style>
+    .cards {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+    }
+    .card {
+      background: #f7f7f7;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 18px 16px 12px 16px;
+      text-align: center;
+      width: 200px;
+      min-height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: box-shadow 0.2s;
+    }
+    .card img {
+      width: 70px;
+      height: 70px;
+      object-fit: contain;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .card h3 {
+      font-size: 1.06rem;
+      margin-bottom: 8px;
+    }
+    .card p {
+      font-size: 0.97rem;
+      margin: 0;
+    }
+    @media (max-width: 600px) {
+      .card {
+        width: 90vw;
+      }
+    }
+  </style>
+  
 </head>
 <body>
   <header>
@@ -39,7 +85,7 @@
         <div class="card">
           <img src="assets/images/youtube.png" alt="YouTube канал ПЛАЗМА72" />
           <h3>Канал на YouTube</h3>
-          <p>Демонстрация реальных работ, станков, инструкции и ответы на вопросы.</p>
+          <p>Демонстрация работ, инструкции и ответы на вопросы.</p>
         </div>
       </a>
       <a href="https://rutube.ru/channel/42211857" target="_blank" class="card-link">
