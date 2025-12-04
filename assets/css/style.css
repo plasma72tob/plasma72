@@ -1,3 +1,7 @@
+.breadcrumbs {
+  display: none;
+}
+
 /* Значки соцсетей внизу */
 .social-links {
   margin-top: 2rem;
