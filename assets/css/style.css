@@ -1,13 +1,10 @@
-.sockontrakt-card .btn:hover block {
-  /* Existing styles */
+.sockontrakt-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
 }
-
 .sockontrakt-card img {
   max-width: 300px !important;
   width: 100%;
   height: auto;
-}
-
-@media (max-width: 600px) {
-  /* Media query styles */
 }
