@@ -4,7 +4,7 @@
 
 /* Спец-карточка для секции соцконтракта */
 .sockontrakt-card {
-  max-width: 450px;
+  max-width: 600px;
   margin: 2rem auto;
   padding: 1.5rem 1rem;
   background: #fff;
@@ -16,7 +16,7 @@
   text-align: center;
 }
 .sockontrakt-card img {
-  max-width: 300px !important;
+  max-width: 400px !important;
   width: 100%;
   height: auto;
 }
