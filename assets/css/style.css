@@ -15,6 +15,11 @@
   align-items: center;
   text-align: center;
 }
+.sockontrakt-card img {
+  max-width: 300px !important;
+  width: 100%;
+  height: auto;
+}
 .sockontrakt-card h3 {
   font-size: 1.25rem;
   font-weight: bold;
