@@ -365,8 +365,6 @@ footer { background: #111; color: #ccc; text-align: center; padding: 1rem; font-
 
 /* Спец-карточка для секции соцконтракта */
 .sockontrakt-card {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
   
   margin: 2rem auto;
   padding: 1.5rem 1rem;
@@ -385,6 +383,8 @@ footer { background: #111; color: #ccc; text-align: center; padding: 1rem; font-
   margin-bottom: 1rem;
 }
 .sockontrakt-gallery {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   display: flex;
   justify-content: center;
   gap: 1rem;
